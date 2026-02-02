@@ -1,0 +1,19 @@
+h1 {
+    color: black;
+    font-size: 48px;
+    text-align: center;
+}
+.img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;                 /* ให้ติดกัน */
+  max-width: 1000px;      /* ปรับได้ */
+  margin: 0 auto;
+}
+
+.img-container img{
+  width: 100%;
+  height: 350px;          /* ✅ บังคับให้สูงเท่ากัน */
+  object-fit: cover;      /* ✅ ครอปให้เต็มกรอบ ไม่ยืด */
+  display: block;
+}
