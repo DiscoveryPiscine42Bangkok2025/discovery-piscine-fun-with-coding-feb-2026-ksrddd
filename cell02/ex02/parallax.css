@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image1 {
+    background-image: url("https://imgs.search.brave.com/jeexfY1or-XUuHFw1payEmpDmlcXS5ggtj06zErzZVY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvZnVubnktbWVt/ZS1waWN0dXJlcy1w/cHp0aGI3NHAzYjY4/NmI5LmpwZw");
+}
+
+.image2 {
+    background-image: url("https://imgs.search.brave.com/jeexfY1or-XUuHFw1payEmpDmlcXS5ggtj06zErzZVY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvZnVubnktbWVt/ZS1waWN0dXJlcy1w/cHp0aGI3NHAzYjY4/NmI5LmpwZw");
+}
+
+/* black block */
+.black {
+    height: 50vh;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* centered text */
+.text {
+    color: white;
+    font-size: 32px;
+}
