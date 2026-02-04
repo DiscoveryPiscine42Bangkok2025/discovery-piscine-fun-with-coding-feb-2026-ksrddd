@@ -1,0 +1,18 @@
+.card-glow {
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid rgba(255, 255, 255, .12);
+    backdrop-filter: blur(10px);
+}
+
+.card-body {
+    padding: 1.25rem 1.25rem;
+}
+
+#contact h5.fw-bold {
+    font-size: 1.05rem;
+    letter-spacing: 0.2px;
+}
+
+#contact ul li {
+    line-height: 1.55;
+}

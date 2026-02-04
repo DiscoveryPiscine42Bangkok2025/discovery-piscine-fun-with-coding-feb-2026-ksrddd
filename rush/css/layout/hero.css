@@ -1,0 +1,31 @@
+.hero {
+    position: relative;
+    min-height: 70vh;
+    /* เพิ่มความสูง ให้ภาพหายใจได้ */
+
+    background:
+        /* ไล่แสงฝั่งซ้าย → ขวา (โฟกัสตัวอักษร) */
+        linear-gradient(90deg,
+            rgba(11, 18, 32, 0.95) 0%,
+            rgba(11, 18, 32, 0.85) 35%,
+            rgba(11, 18, 32, 0.65) 65%,
+            rgba(11, 18, 32, 0.45) 100%),
+
+        /* เอฟเฟกต์แสงเดิม (คุม mood) */
+        radial-gradient(900px 500px at 15% 25%, rgba(45, 108, 223, .25), transparent 60%),
+        radial-gradient(900px 500px at 85% 20%, rgba(0, 200, 160, .18), transparent 60%),
+
+        /* 👇 รูป background */
+        url("../../images/42feature.jpg") right center / cover no-repeat;
+
+    color: #fff;
+}
+
+
+.avatar {
+    width: 132px;
+    height: 132px;
+    border-radius: 999px;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, .2);
+}

@@ -1,0 +1,14 @@
+body {
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+}
+
+.section-title {
+    font-weight: 800;
+    letter-spacing: 0.6px;
+    margin-bottom: 14px;
+}
+
+.small-muted {
+    color: rgba(255, 255, 255, .75);
+}

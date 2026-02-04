@@ -1,0 +1,30 @@
+.skill-item {
+    margin-bottom: 18px;
+}
+
+.skill-name {
+    font-weight: 500;
+}
+
+.skill-percent {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.skill-icon {
+    color: var(--theme);
+    font-size: 1rem;
+}
+
+.progress {
+    height: 8px;
+    border-radius: 8px;
+    background-color: #e9ecef;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.progress-bar {
+    background-color: var(--theme);
+    border-radius: 8px;
+}

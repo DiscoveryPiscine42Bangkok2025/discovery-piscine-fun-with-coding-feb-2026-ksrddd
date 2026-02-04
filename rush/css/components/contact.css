@@ -1,0 +1,33 @@
+.contact-list a {
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: var(--theme);
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+.contact-icon {
+    font-size: 1.15rem;
+    color: var(--theme);
+    margin-right: 12px;
+    min-width: 24px;
+}
+
+.cert-title a {
+    text-decoration: none;
+    color: var(--theme);
+    display: inline-flex;
+    align-items: center;
+}
+
+.cert-title a:hover {
+    text-decoration: underline;
+}
+
+.cert-title i {
+    color: var(--theme);
+    font-size: 1.1rem;
+}

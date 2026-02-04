@@ -1,0 +1,21 @@
+.highlight-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.badge-skill {
+    background-color: var(--theme);
+    color: #ffffff;
+    border: none;
+    font-weight: 500;
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    display: inline-flex;
+    align-items: center;
+    margin: 6px 6px 0 0;
+}
+
+.badge-skill i {
+    font-size: 0.9rem;
+}
