@@ -16,7 +16,7 @@
         radial-gradient(900px 500px at 85% 20%, rgba(0, 200, 160, .18), transparent 60%),
 
         /* 👇 รูป background */
-        url("../../images/42feature.jpg") right center / cover no-repeat;
+        url("../../images/khum/42feature.jpg") right center / cover no-repeat;
 
     color: #fff;
 }
